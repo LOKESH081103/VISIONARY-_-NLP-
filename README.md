@@ -124,7 +124,7 @@ To measure the effectiveness of the speech quality classifier, the following met
 POST /convert
 
 ### 📥 Request Format
-```json
+``json
 {
   "voice_input": "This is a sample input"
 }
