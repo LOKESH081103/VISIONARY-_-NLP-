@@ -53,18 +53,12 @@ Terminal Output & Client Application
 
 **Technologies Used**
 - Python
-- 
--Flask (REST API development)
-
--SpeechRecognition library
-
--Machine Learning (Support Vector Machine)
-
--NumPy
-
--Scikit-learn
-
--Unicode Braille Encoding
+- Flask (REST API development)
+- SpeechRecognition library
+- Machine Learning (Support Vector Machine)
+- NumPy
+- Scikit-learn
+- Unicode Braille Encoding
 
 **Braille Translation Module**
 
@@ -72,17 +66,12 @@ The Braille translation engine converts English text into Unicode Braille symbol
 
 Supported Features:
 
--Lowercase and uppercase letters
-
--Capital letter handling
-
--Numbers with numeric indicators
-
--Punctuation symbols
-
--Common English contractions
-
--Word-level and character-level translation
+- Lowercase and uppercase letters
+- Capital letter
+- handling Numbers with numeric indicators
+- Punctuation symbols
+- Common English contractions
+- Word-level and character-level translation
 
 Example:
 Input Text: Hello World
@@ -94,9 +83,8 @@ The system includes a machine learning–based speech quality classifier using a
 
 Speech Quality Labels:
 
--Good
-
--Poor
+- Good
+- Poor
 
 The classification helps assess whether the spoken input is suitable for further processing in assistive applications.
 
@@ -104,24 +92,20 @@ The classification helps assess whether the spoken input is suitable for further
 
 To assess the performance of the speech quality classifier, the following metrics are generated:
 
--Accuracy
-
--Precision
-
--Recall
-
--F1 Score
+- Accuracy
+- Precision
+-  Recall
+-  F1 Score
 
 These metrics are calculated programmatically and displayed:
 
-In the terminal for demonstration purposes
-
-In the API response for transparency
+- In the terminal for demonstration purposes.
+- In the API response for transparency.
 
 Note: For demonstration and academic purposes, evaluation metrics are controlled to maintain consistent and stable outputs during presentations.
 
-Flask REST API
-Endpoint
+**Flask REST API**
+*Endpoint*
 POST /convert
 
 Request Format
@@ -141,21 +125,19 @@ Response Format
   }
 }
 
-Terminal Output
+**Terminal Output**
 
 When the API endpoint is triggered, the system prints detailed logs in the terminal, including:
 
-Input text
-
-Braille translation
-
-Speech quality classification
-
-Evaluation metrics
+- Input text
+- Braille translation
+- Speech quality
+- classification
+- Evaluation metrics
 
 This helps in debugging, demonstration, and academic evaluation.
 
-Project Structure
+**Project Structure**
 ├── app.py
 ├── model.pkl
 ├── requirements.txt
@@ -163,7 +145,7 @@ Project Structure
 ├── braille_mappings.py
 └── utils/
 
-How to Run the Project
+**How to Run the Project**
 Step 1: Install Required Libraries
 pip install -r requirements.txt
 
@@ -174,21 +156,16 @@ Step 3: Test the API
 
 Use Postman, curl, or any frontend application to send a POST request to the /convert endpoint.
 
-Key Features
+*Key Features*
 
-End-to-end Voice/Text to Braille conversion
+- End-to-end Voice/Text to Braille conversion
+- Unicode-based Braille output
+- Machine learning–based speech quality evaluation
+- REST API support
+- Clear terminal and JSON output
+- Modular and extensible architecture
 
-Unicode-based Braille output
-
-Machine learning–based speech quality evaluation
-
-REST API support
-
-Clear terminal and JSON output
-
-Modular and extensible architecture
-
-Applications
+**Applications**
 
 Assistive technology for visually impaired users
 
