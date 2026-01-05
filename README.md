@@ -52,9 +52,8 @@ Terminal Output & Client Application
 
 
 **Technologies Used**
-
--Python
-
+- Python
+- 
 -Flask (REST API development)
 
 -SpeechRecognition library
