@@ -53,65 +53,65 @@ Terminal Output & Client Application
 
 **Technologies Used**
 
-Python
+-Python
 
-Flask (REST API development)
+-Flask (REST API development)
 
-SpeechRecognition library
+-SpeechRecognition library
 
-Machine Learning (Support Vector Machine)
+-Machine Learning (Support Vector Machine)
 
-NumPy
+-NumPy
 
-Scikit-learn
+-Scikit-learn
 
-Unicode Braille Encoding
+-Unicode Braille Encoding
 
-Braille Translation Module
+**Braille Translation Module**
 
 The Braille translation engine converts English text into Unicode Braille symbols, making the output compatible with digital Braille displays and screen readers.
 
 Supported Features:
 
-Lowercase and uppercase letters
+-Lowercase and uppercase letters
 
-Capital letter handling
+-Capital letter handling
 
-Numbers with numeric indicators
+-Numbers with numeric indicators
 
-Punctuation symbols
+-Punctuation symbols
 
-Common English contractions
+-Common English contractions
 
-Word-level and character-level translation
+-Word-level and character-level translation
 
 Example:
 Input Text: Hello World
 Braille Output: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙
 
-Speech Quality Analysis
+**Speech Quality Analysis**
 
 The system includes a machine learning–based speech quality classifier using a Support Vector Machine (SVM).
 
 Speech Quality Labels:
 
-Good
+-Good
 
-Poor
+-Poor
 
 The classification helps assess whether the spoken input is suitable for further processing in assistive applications.
 
-Evaluation Metrics
+**Evaluation Metrics**
 
 To assess the performance of the speech quality classifier, the following metrics are generated:
 
-Accuracy
+-Accuracy
 
-Precision
+-Precision
 
-Recall
+-Recall
 
-F1 Score
+-F1 Score
 
 These metrics are calculated programmatically and displayed:
 
